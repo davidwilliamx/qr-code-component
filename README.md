@@ -8,3 +8,5 @@ QR code component
 
 
 #### Link Preview
+
+[Preview](https://davidwilliamx.github.io/qr-code-component)
