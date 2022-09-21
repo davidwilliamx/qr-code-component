@@ -1,9 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
 /* ### Fim imports */
 /* ######################################## */
-
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
@@ -12,10 +9,8 @@
     /* ## Font */
     --primary-font: 'Outfit', sans-serif;
 }
-
 /* ### Fim variáveis */
 /* ######################################## */
-
 body {
     display: flex;
     flex-direction: column;
@@ -23,46 +18,34 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: var(--light-gray);
+    font-family: var(--primary-font);
 }
-
 .container {
-    width: 320px;
+    width: 21.333333333333332em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 16px;
+    padding: 1.0666666666666667em;
     background-color: var(--white);
-    border-radius: 15px;
+    border-radius: 1em;
 }
-
-.code {
-    width: 320px;
+.container img {
+    width: 21.333333333333332em;
+    border-radius: 0.6666666666666666em;
 }
-.code img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.description {
-    width: 100%;
-}
-.description .title {
-    font-family: var(--primary-font);
+.container h1 {
     font-size: 1.5714285714285714em;
     font-weight: 700;
     color: var(--dark-blue);
     text-align: center;
-    margin-top: 24px;
+    margin-top: 0.8em;
 }
-.description .text {
-    font-family: var(--primary-font);
+.container p {
     font-size: 1em;
     font-weight: 400;
     text-align: center;
-    line-height: 22px;
+    /* line-height: 1.4666666666666666em; */
     color: var(--dark-blue);
-    margin-top: 12px;
-    margin-bottom: 40px;
-    padding: 20px;
+    padding: 1.3333333333333333em;
 }
